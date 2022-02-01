@@ -1,0 +1,86 @@
+.container {
+  max-width: 500px;
+  background-color: #444;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  transition: all ease .8s;
+}
+
+.divText {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: chartreuse;
+}
+
+.divInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.divInput input {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.logarCadastrar {
+  width: 50%;
+  padding: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: chartreuse;
+}
+
+.googleButton {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
+
+.buttonState{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+
+}
+
+.buttonNoRegister{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+}
+
+.errorText{
+ 
+  text-align: center;
+  font-size: .8rem;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin: 10px 10px;
+  }
+}

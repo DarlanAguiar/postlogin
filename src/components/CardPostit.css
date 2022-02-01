@@ -1,0 +1,46 @@
+.card {
+  box-sizing: border-box;
+  width: 47%;
+  background-color: #333;
+  padding: 5px;
+  border-radius: 8px;
+  min-height: 200px;
+  position: relative;
+}
+
+.date {
+  padding: 5px 5px 8px;
+  text-align: center;
+}
+
+.validDate {
+  text-align: center;
+  color: chartreuse;
+  font-size: 0.5em;
+  margin-top: -8px;
+  padding-bottom: 9px;
+}
+
+.editDate {
+  font-size: 0.45em;
+  display: flex;
+  position: absolute;
+  bottom: 3px;
+}
+
+.OneMoreCheck{
+ 
+  font-size: .85em;
+  color: #666;
+  margin: 3px;
+  border-radius: 5px;
+  padding: 3px 3px 3px 6px;
+  transition: all ease .3s;
+}
+
+.OneMoreCheck:hover{
+  color: white;
+  background-color: #444;
+ 
+}
+

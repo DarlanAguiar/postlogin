@@ -1,0 +1,25 @@
+
+
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+}
+h4{
+  flex: 1;
+  font-size: 1em;
+  text-align: center;
+  
+  color: chartreuse;
+}
+
+.textContent{
+  font-size: 1em;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.buttonX{
+  
+  background-color: #333;
+  border: none;
+}

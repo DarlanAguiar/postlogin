@@ -1,0 +1,15 @@
+.rodape {
+  position: fixed;
+  bottom: 3px;
+  right: 6px;
+}
+.textoRodape {
+  color: chartreuse;
+  font-size: .8em;
+}
+svg {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}

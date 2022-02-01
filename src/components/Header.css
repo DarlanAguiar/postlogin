@@ -1,0 +1,117 @@
+.menuContainer{
+  padding: 20px;
+  min-width: 295px;
+  width: 70vw;
+  background-color: #444;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom-right-radius: 20%;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.323);
+  top: 0;
+  position: fixed;
+ /*  left: -100vw; */
+  transition: all ease 0.5s;
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+textarea{
+  width: 100%;
+  padding: 7px;
+  border-radius: 8px;
+
+  
+}
+
+.aviso{
+  font-size: 11px;
+  color: rgb(255, 102, 102);
+}
+
+.checar{
+  
+  width: 70%;
+  padding: 7px;
+  border-radius: 8px 0 0 8px;
+}
+
+.botao-incluir{
+  width: 30%;
+  padding: 7px;
+  border-radius: 0 8px 8px 0;
+  font-weight: bold;
+  background-color: chartreuse;
+}
+
+.label-data{
+  font-weight: bold;
+
+}
+.data{
+  padding: 3px;
+  margin: 3px 0;
+  border-radius: 8px;
+  margin-left: 3px;
+}
+
+.botoes-deslizante{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.botao-salvar, .botao-cancelar{
+  padding: 8px;
+ font-weight: bold;
+  margin-left: 10px;
+  width: 30%;
+  border-radius: 8px;
+  transition: all ease .3s;
+}
+
+.botao-salvar{
+  background-color: #666;
+  color: chartreuse;
+  text-shadow: 0 0 3px black;
+}
+
+.botao-cancelar{
+  background-color: #666;
+  color: #000;
+}
+
+.botao-cancelar:hover{
+  background-color: crimson;
+  color: #fff;
+}
+
+.botao-salvar:hover{
+  background-color: chartreuse;
+  color: #222;
+  text-shadow: none;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+ /*  a {
+    font-size: 23px;
+  } */
+  .menuContainer {
+    width: 35vw;
+  }
+
+ 
+
+ /*  .post-it {
+    margin-top: 18px;
+    width: 22vw;
+  } */
+}

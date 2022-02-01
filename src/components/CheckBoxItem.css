@@ -1,0 +1,38 @@
+.card_div_checar_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #444;
+  margin: 3px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.button_apagar_check {
+  border: none;
+  background-color: transparent;
+  padding-right: 0;
+}
+
+.button_apagar_check svg {
+  margin-bottom: -3px;
+}
+
+.card_item_check {
+  padding-left: 1px;
+  font-size: 0.8em;
+  flex: 1;
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  width: fit-content;
+}
+
+.button_check {
+  border: none;
+  background-color: transparent;
+  padding-right: 3px;
+  margin-right: 3px;
+}
